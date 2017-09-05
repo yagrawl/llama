@@ -42,6 +42,7 @@ a {
     text-decoration: none !important;
 }
 
+/* Fixed Logo */
 .logo {
     margin-top: 30px;
     margin-left: 30px;
@@ -53,6 +54,7 @@ a {
     width: 50px;
 }
 
+/* Landing Page */
 .page {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -128,6 +130,7 @@ span.highlight {
     color: #383838;
 }
 
+/* Landing page customization for smaller screens */
 @media screen and (max-width: 475px){
   .landing-text {
     max-width: 475px;
@@ -174,10 +177,11 @@ span.highlight {
     transform: scale(1.1);
 }
 
+/* About Page */
 .about {
     position: relative;
     min-width: 375px;
-    height: 80vh;
+    height: 600px;
     padding: 50px auto;
     margin-top: 50px;
     margin-left: 100px;
@@ -225,7 +229,8 @@ span.highlight {
   display: none;
 }
 
-@media screen and (max-width: 975px) and (min-width: 400px){
+/* About page smaller screen customization */
+@media screen and (max-width: 975px) and (min-width: 371px){
     .image-side > img{
         opacity: 0.2;
     }
@@ -233,12 +238,12 @@ span.highlight {
     .side {
         position: absolute;
         width: 90%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 20vw;
+        margin-left: -6vw;
     }
 
     img.news {
-        margin-right: 100px;
+        margin-right: 20vw;
         width: 250px;
     }
 
@@ -251,7 +256,7 @@ span.highlight {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 370px){
   .side > p.subtitle, .side > p.title {
     font-size: 24px;
   }
@@ -266,7 +271,7 @@ span.highlight {
   }
 
   .side {
-    margin-left: 10px;
+    margin-left: -60vw;
     width: 300px;
   }
 
@@ -279,6 +284,7 @@ span.highlight {
   }
 }
 
+/* Haircut options */
 .offer {
     height: 46vw;
 }
@@ -348,6 +354,7 @@ img.cropper {
     filter: saturate(0%);
 }
 
+/* Left floating haircut containers*/
 .haircuts {
     margin-left: 100px;
     margin-right: 100px;
@@ -424,7 +431,8 @@ div.desc {
     margin-top: -20px;
 }
 
-.login {
+/* Book an appointment Form*/
+.book {
   position: relative;
   margin: 30px auto;
   padding: 20px 20px 20px;
@@ -433,7 +441,7 @@ div.desc {
   border-radius: 3px;
 }
 
-.login:before {
+.book:before {
   content: '';
   position: absolute;
   top: -8px;
@@ -443,7 +451,7 @@ div.desc {
   z-index: -1;
 }
 
-.login h1 {
+.book h1 {
   margin: -20px -20px 21px;
   line-height: 40px;
   font-size: 12px;
@@ -460,19 +468,19 @@ div.desc {
   box-shadow: 0 1px whitesmoke;
 }
 
-.login p {
+.book p {
   margin: 20px 0 0;
 }
 
-.login p:first-child {
+.book p:first-child {
   margin-top: 0;
 }
 
-.login input[type=text] {
+.book input[type=text] {
   width: 278px;
 }
 
-.login p.submit {
+.book p.submit {
   text-align: right;
 }
 
@@ -543,10 +551,10 @@ input[type=submit]:hover {
 }
 
 .thanks-container {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
-}
+}  
 
 .thanks {
     font-family: Proxima Nova;
@@ -555,6 +563,7 @@ input[type=submit]:hover {
     color: black;
 }
 
+/* Footer */
 .footer {
     background-color: #D8D8D8;
     height: 100px;

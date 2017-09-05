@@ -17,11 +17,19 @@
         <!--Font Awesome -->
         <script src="https://use.fontawesome.com/8c86fcede2.js"></script>
 
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="img/webicon.png" />
+
     </head>
     <body>
+
+        <!-- Wrapper to set overflow-x to none -->
         <div class="wrapper">
+
+            <!-- Landing page begins -->
             <section id="home">
                 <header>
+                    <!-- Persistent logo -->
                     <div class="logo">
                         <img src="img/logo.png">
                     </div>
@@ -35,6 +43,9 @@
                     </div>
                 </div>
             </section>
+            <!-- Landing page ends -->
+
+            <!-- About section begins -->
             <section id="about">
                 <div class="about">
                     <div class="image-side">
@@ -48,6 +59,9 @@
                     </div>
                 </div>
             </section>
+            <!-- About section ends -->
+
+            <!-- Haircuts section begins -->
             <section id="offer">
                 <div class="offer">
                     <div class="offer-background">
@@ -57,7 +71,7 @@
                             </div>
                             <div class="haircuts">
                                 <div class="responsive">
-                                  <div class="gallery">
+                                  <div class="gallery haircutLeft">
                                       <img class="cropper shadow" src="img/haircut1.png">
                                     <div class="desc">
                                         <p class="haircut-title">Crew Cut</p>
@@ -68,7 +82,7 @@
 
 
                                 <div class="responsive">
-                                  <div class="gallery">
+                                  <div class="gallery haircutLeft">
                                       <img class="cropper shadow" src="img/haircut2.png">
                                     <div class="desc">
                                         <p class="haircut-title">Pompadour</p>
@@ -78,7 +92,7 @@
                                 </div>
 
                                 <div class="responsive">
-                                  <div class="gallery">
+                                  <div class="gallery haircutRight">
                                       <img class="cropper shadow" src="img/haircut3.png">
                                     <div class="desc">
                                         <p class="haircut-title">High Top Fade</p>
@@ -88,7 +102,7 @@
                                 </div>
 
                                 <div class="responsive">
-                                  <div class="gallery">
+                                  <div class="gallery haircutRight">
                                       <img class="cropper shadow" src="img/haircut4.png">
                                     <div class="desc">
                                         <p class="haircut-title">Mop Top</p>
@@ -104,22 +118,29 @@
                     </div>
                 </div>
             </section>
+            <!-- Haircuts section ends -->
+
+            <!-- Book an appointment section begins -->
             <section id="appointment">
-                <div class="login" id="login">
+                <div class="book" id="book">
                   <h1 class="appointment">BOOK AN APPOINTMENT</h1>
                   <form>
                     <p><input type="text" value="" placeholder="Full Name"></p>
                     <p><input type="text" value="" placeholder="Phone Number"></p>
                     <p><input type="text" value="" placeholder="Time"></p>
                     <p><input type="text" value="" placeholder="Date"></p>
+                    <!-- On click -> Delete form and display submission text -->
                     <p class="submit"><input type="submit" value="Book" onclick="confirm()"></p>
                   </form>
                 </div>
             </section>
+            <!-- Appointment section ends -->
 
+            <!-- Footer begins -->
             <section>
                 <div class="footer">
                     <div class="social-icons">
+                        <!-- Uses Fontawesome -->
                         <a href="https://www.instagram.com/yagrawl" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>&nbsp;
                         <a href="https://www.facebook.com/yagrawl" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp;
                         <a href="https://www.github.com/yagrawl" target="_blank"><i class="fa fa-github fa-2x"></i></a>&nbsp;
@@ -129,11 +150,17 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Footer ends -->
         </div>
+
+        <!-- Adding Scripts -->
+
         <!--jQuery -->
         <script src="js/jquery.min.js"></script>
 
         <!-- Custom Script -->
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
