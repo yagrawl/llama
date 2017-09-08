@@ -229,26 +229,26 @@ span.highlight {
   display: none;
 }
 
+.image-side > img{
+  opacity: 1;
+}
+
 /* About page smaller screen customization */
 @media screen and (max-width: 975px) and (min-width: 371px){
     .image-side > img{
-        opacity: 0.2;
+        display: none;
     }
 
     .side {
         position: absolute;
         width: 90%;
         margin-right: 20vw;
-        margin-left: -6vw;
+        margin-left: 0vw;
     }
 
     img.news {
         margin-right: 20vw;
         width: 250px;
-    }
-
-    p.subtitle {
-        background-color: #D8D8D8;
     }
 
     .news-mobile {
@@ -262,7 +262,7 @@ span.highlight {
   }
 
   .image-side > img{
-      opacity: 0.2;
+      display: none;
   }
 
   img.news-mobile {
@@ -271,7 +271,7 @@ span.highlight {
   }
 
   .side {
-    margin-left: -60vw;
+    margin-left: -40vw;
     width: 300px;
   }
 
@@ -561,6 +561,40 @@ input[type=submit]:hover {
     font-weight: 400;
     font-size: 26px;
     color: black;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D8D8D8;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+/* About Me*/
+.aboutme {
+    max-width: 580px;
+    margin: 6vh auto;
+}
+
+@media screen and (max-width: 620px) {
+    .aboutme {
+        margin-left: 10vh;
+        margin-right: 10vh;
+    }
+}
+
+.aboutme > p {
+    font-family: Proxima Nova;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+
+.aboutme > img {
+  width: 100%;
+  height: auto;
 }
 
 /* Footer */
