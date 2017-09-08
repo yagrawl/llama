@@ -271,7 +271,7 @@ span.highlight {
   }
 
   .side {
-    margin-left: -40vw;
+    margin-left: -5vh;
     width: 300px;
   }
 
@@ -406,6 +406,7 @@ div.desc {
     .offer {
         height: 358vw;
     }
+
 }
 
 .clearfix:after {
